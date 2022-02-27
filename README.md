@@ -12,10 +12,11 @@ First we start with the empty arrays C and I, and V with all the nodes. Then an 
 - *maximal_cliques.py*: functions needed.
 - *test.py*: example of aplication. Run `python test.py`.
 
+## Example
 **Input**: graph represented as a dictcionary (key: nodes, value: list of adjacent nodes).
 
-Example: G = {1:[2,3],2:[1,3,5],3:[1,2],4:[5,6],5:[2,4,6],6:[4,5]}
+Undirected graph: G = {1:[2,3],2:[1,3,5],3:[1,2],4:[5,6],5:[2,4,6],6:[4,5]}
 
-![Undirected graph](imgs/graph.png)
+![](imgs/graph.png)
 
-
+In this example maximal cliques are {1,2,3}, {2,5} and {4,5,6}.
