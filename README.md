@@ -17,6 +17,6 @@ First we start with the empty arrays C and I, and V with all the nodes. Then an 
 
 Undirected graph: G = {1:[2,3],2:[1,3,5],3:[1,2],4:[5,6],5:[2,4,6],6:[4,5]}
 
-![](imgs/graph.png)
+<img src="imgs/graph.png" width="350" height="150">
 
 In this example maximal cliques are {1,2,3}, {2,5} and {4,5,6}.
